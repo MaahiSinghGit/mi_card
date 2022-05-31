@@ -14,7 +14,10 @@ class MyApp extends StatelessWidget {
         body: SafeArea(
           child: Column(
             children: [
-
+              CircleAvatar(
+                radius: 55.0,
+                backgroundImage: AssetImage(),
+              ),
             ],
           ),
         ),
